@@ -2,10 +2,10 @@
 import cv2
 
 #Captura de marcos del video
-camara = cv2.VideoCapture('/Users/oscarfrancisco/Downloads/Car-detection-master/video.avi')
-camara.open('/Users/oscarfrancisco/Downloads/Car-detection-master/video.avi')
+camara = cv2.VideoCapture('/Users/HOME/Downloads/Trabajos de repavimentación generaron tráfico en Autopista General')
+camara.open('/Users/HOME/Downloads/Trabajos de repavimentación generaron tráfico en Autopista General')
 #Xml entrenado para la deteccion de autos
-car_cascade = cv2.CascadeClassifier('/Users/oscarfrancisco/Documents/cars.xml')
+car_cascade = cv2.CascadeClassifier('/Users/HOME/Downloads/Trabajos de repavimentación generaron tráfico en Autopista General')
 
 #Loop cuando el ciclo haya inicializado
 while True:
